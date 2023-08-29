@@ -1,0 +1,40 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.head{
+    background-color: blanchedalmond;
+}
+
+.main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+
+.card{
+    width: 150px;
+    border: 5px solid rgb(115, 113, 241);
+    padding: 1px;
+
+    display: inline-block;
+    background-color: aqua;
+}
+
+.row:nth-child(2){
+    margin: 0px;
+}
+
+.row:nth-child(3){
+    margin: 1rem 0;
+}
+
+.row:nth-child(4){
+    margin: 0px;
+}
+
+.card:hover{
+    width: 200px;
+    color:blueviolet
+}

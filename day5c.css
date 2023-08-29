@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    align: center;
+}
+
+.stock{
+    height: 500px;
+    width: 30%;
+    border: 2px solid rgb(115, 113, 241);
+    padding: 2px;
+    margin-right: 1rem;
+
+    background-color: aqua;
+    overflow-y: scroll;
+}
+
+.sold{
+    height: 500px;
+    width: 30%;
+    border: 2px solid rgb(115, 113, 241);
+    padding: 2px;
+
+    background-color: rgb(255, 60, 0);
+    overflow-y: scroll;
+} 
+
+ul {  
+    list-style-type: none;  
+    font-weight: bold;  
+    font-size: 20px;  
+}  
