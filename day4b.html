@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Styling</title>
+    <style> 
+    *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+        table tr td{
+            border: 1px solid;
+        }
+        table th{
+            border: 1px solid;
+        }
+
+        table{
+            width: 50%;
+            /* border border-collapse: collapse; */
+        }
+
+
+        #hobby tbody tr:nth-child(1){
+            background-color: #008000;
+        } 
+
+        #movie tbody tr:nth-child(2){
+            background-color: #ff0000;
+        } 
+
+        #song tbody tr:nth-child(3){
+            background-color: #0000ff;
+        }
+    </style>
+</head>
+<body>
+    <section id="hobby">
+        <h1>Hobby</h1>
+        <table>
+            <thead>
+                <th>Categories</th>
+                <th>Hobby Name</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Art and Craft</td>
+                    <td>Painting</td>
+                </tr>
+                <tr>
+                    <td>Collector</td>
+                    <td>Typewriter</td>
+                </tr>
+                <tr>
+                    <td>Outdoor Activity</td>
+                    <td>Dog Walking</td>
+                </tr>
+                <tr>
+                    <td>Entertainment</td>
+                    <td>Guitar Playing</td>
+                </tr>
+                <tr>
+                    <td>Knowledge Base</td>
+                    <td>Learn English</td>
+                </tr>
+                <tr>
+                    <td>Volleyball</td>
+                    <td>Sport</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="movie">
+        <h1>Favorites Movies</h1>
+        <table>
+            <thead>
+                <th>Movie Name</th>
+                <th>Director</th>
+                <th>Genre</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A Man Called Otto</td>
+                    <td>Painting</td>
+                    <td>Drama</td>
+                </tr>
+                <tr>
+                    <td>Inglorious Basterds</td>
+                    <td>Quentin Tarantino</td>
+                    <td>Thriller</td>
+                </tr>
+                <tr>
+                    <td>Pulp Fiction</td>
+                    <td>Dog Walking</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Reservoir Dogs</td>
+                    <td>Quentin Tarantino</td>
+                    <td>Mystery</td>
+                </tr>
+                <tr>
+                    <td>Shawshank Redemption</td>
+                    <td>Learn English</td>
+                    <td>Drama</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </section>
+
+    <section id="song">
+        <h1>Favorites Song</h1>
+        <table>
+            <thead>
+                <th>Song Title</th>
+                <th>Album</th>
+                <th>Artist</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>As Long as</td>
+                    <td>Self Titled</td>
+                    <td>Heidy</td>
+                </tr>
+                <tr>
+                    <td>Inglorious Basterds</td>
+                    <td>Quentin Tarantino</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Pulp Fiction</td>
+                    <td>Dog Walking</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Reservoir Dogs</td>
+                    <td>Quentin Tarantino</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Shawshank Redemption</td>
+                    <td>Learn English</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

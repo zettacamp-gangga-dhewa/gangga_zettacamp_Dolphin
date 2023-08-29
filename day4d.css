@@ -1,0 +1,22 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(15, 17, 17);
+    text-align: center;
+}
+
+.card{
+    width: 250px;
+    margin: 5px;
+    border: 10px solid green;
+    padding: 2px;
+
+    display: inline-block;
+    background-color: aqua;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.img{
+    width: 200px;
+    height:200px;
+    align-items: center;
+}
